@@ -40,13 +40,20 @@ main {
    position: relative;
 }
 
+.paragraph {
+   width: 70%;
+   margin: 0 auto;
+}
+
 .paragraph-box {
    width: 100%;
    background: #fff;
    height: 28vh;
    color: black;
    text-align: center;
-   font:  18px Verdana;
+   font:  12px Verdana;
+   padding: 2em;
+   overflow: scroll;
 
 }
 
@@ -75,5 +82,5 @@ main {
    width: 100%;
    background: #F8E71C;
    height: 15vh;
-   
+
 }
