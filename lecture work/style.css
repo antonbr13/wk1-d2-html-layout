@@ -1,0 +1,65 @@
+* {
+   box-sizing: border-box;
+}
+
+main {
+   background: darkgrey;
+   min-height: 100vh;
+   padding-top: 10px;
+
+
+}
+
+
+.title {
+   color: white;
+   padding-top: 4%;
+}
+
+.p-body {
+   padding: 4%;
+   font:  12px Verdana;
+
+}
+
+
+.blue-box {
+   width: 50px;
+   height: 50px;
+   background: blue;
+   position: absolute;;
+   margin: 10px 0 0 10px;
+}
+
+.banner {
+   width: 80%;
+   background: black;
+   height: 25vh;
+   margin: 0 auto;
+   border: 3px solid yellow;
+   text-align: center;
+   position: relative;
+}
+
+.body {
+   width: 80%;
+   background: black;
+   height: 15vh;
+   margin: 15px  auto;
+   color: white;
+   text-align: center;
+}
+
+.secondary-content {
+   width: 80%;
+   background: black;
+   height: 5vh;
+   margin: 15px  auto;
+}
+
+.footer {
+   width: 80%;
+   background: black;
+   height: 35vh;
+   margin: 0 auto;
+}

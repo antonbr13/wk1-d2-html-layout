@@ -10,6 +10,13 @@
 
 
 @media (min-width: 420px) {
+
+   .container {
+         width: 100%;
+         display: flex;
+         justify-content: center;
+      }
+
    .left {
       background: #4A90E2;
       min-height: 100vh;
@@ -23,37 +30,46 @@
       width: 50%;
       margin: 0;
       display: inline-block;
-      position: absolute;
+      /*position: absolute;*/
    }
 }
 
 @media (min-width: 850px) {
+
+   .container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+   }
+
    .left {
       background: #4A90E2;
       min-height: 100vh;
       width: 33%;
       margin: 0;
-      display: inline-block;
    }
+
    .middle {
       background: #50E3C2;
       min-height: 100vh;
       width: 33%;
       margin: 0;
-      display: inline-block;
-      position: relative;;
    }
+
    .right {
       background: #B8E986;
       min-height: 100vh;
       width: 34%;
       margin: 0;
-      display: inline-block;
-      position: absolute;
-
-
+      display: flex;
+      align-items: flex-end;
    }
 
+   .red-box {
+      width: 100%;
+      height: 20vh;
+      background: red;
 
+   }
 
 }
